@@ -18,7 +18,13 @@ a {
 }
 .header {
     background-color: #1F2937;
-    padding: 10px 150px;
+    padding: 10px 0;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    width: 1050px;
 }
 
 .navigation {
@@ -73,13 +79,26 @@ a {
     color: #1F2937;
     font-weight: bolder;
     font-size: 36px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 95px;
 }
 
 .card img{
     border: 3px solid #3882F6;
     border-radius: 8px;
-    height: 150px;
-    width: 150px;
+    height: 170px;
+    width: 170px;
+}
+
+.card p{
+    width: 170px;
+    text-align: center;
 }
 
 .quotation{
